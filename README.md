@@ -9,7 +9,13 @@
     
 ## Description
 
-To-Do API in Nest Js
+This is a NestJS-based Todo API that includes endpoints for managing tasks. It uses TypeORM with PostgreSQL for database management.
+
+## Clone the repository
+```bash
+git clone https://github.com/ahmadbinshafqat/todo-api.git
+cd todo-api
+```
 
 ## Project setup
 

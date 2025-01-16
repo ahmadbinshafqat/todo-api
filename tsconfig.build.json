@@ -1,0 +1,61 @@
+# Todo API
+
+This is a NestJS-based Todo API that includes endpoints for managing tasks. It uses TypeORM with PostgreSQL for database management.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/) (LTS version)
+- [npm](https://www.npmjs.com/)
+- [PostgreSQL](https://www.postgresql.org/) (version 12 or higher)
+
+## Project Setup
+
+### 1. Clone the repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/ahmadbinshafqat/todo-api.git
+cd todo-api
+```
+### 2. Install dependencies
+Install the project dependencies using npm:
+```bash
+npm install
+```
+
+### 3. Setup .env file for database configurations using .env.example file
+
+### 4. Run the server
+To run the server, use
+```bash
+npm run start
+```
+To run the server in watch mode, use
+```bash
+npm run start:dev
+```
+### 5. Run the test cases
+To run test cases, use
+``` bash
+npm run test
+```
+To run the e2e tests, use
+```bash
+npm run test:e2e
+```
+### 5. Database migrations
+To generate migrations, use
+```bash
+npm run migration:generate -- ./migrations/${migration_name}
+```
+To run migrations, use
+```bash
+npm run migration:run
+```
+To revert migrations, use
+```bash
+npm run migration:revert
+```
